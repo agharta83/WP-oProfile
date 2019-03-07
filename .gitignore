@@ -1,0 +1,5 @@
+/wp
+/vendor
+/content/languages
+/content/plugins
+wp-config.php
