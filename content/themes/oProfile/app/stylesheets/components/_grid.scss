@@ -1,0 +1,33 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lighten($color-contrast, 75);
+    border: 1px solid lighten($color-contrast, 50);
+    margin: 3em;
+    border-radius:  $border-radius;
+
+    &__item {
+        position: relative;
+        padding: 3em;
+        color: $color-contrast;
+        border-top: 1px solid lighten($color-contrast, 50);
+
+        &:first-child {
+            border-top: none;
+        }
+
+        &__icon {
+            position: absolute;
+            top: 1em;
+            right: 1em;
+            color: $color-text;
+            background-color: $color-brand;
+            width: 2.5em;
+            height: 2.5em;
+            text-align: center;
+            line-height: 2.5em;
+            border-radius: $border-radius;
+        }
+    }
+}

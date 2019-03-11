@@ -16,7 +16,6 @@
     "jquery.scrollex": "^0.2.1"
   },
   "devDependencies": {
-    "browser-sync-brunch": "0.0.9",
     "auto-reload-brunch": "^2",
     "brunch": "^2",
     "clean-css-brunch": "^2",

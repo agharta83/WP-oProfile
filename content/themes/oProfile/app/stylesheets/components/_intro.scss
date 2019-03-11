@@ -1,0 +1,16 @@
+.intro {
+    padding: 1em;
+
+    &__title {
+        font: {
+            family: 'Roboto Slab', serif;
+            size: 2em;
+        }
+        width: 50vw;
+    }
+
+    &__content {
+        margin-bottom: 1em;
+        width: 50vw;
+    }
+}

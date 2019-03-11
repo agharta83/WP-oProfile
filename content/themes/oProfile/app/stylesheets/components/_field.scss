@@ -1,0 +1,44 @@
+.field {
+    width: 100%;
+    padding: 1em;
+
+    label {
+        color: $color-text;
+        font-weight: 700;
+        display: block;
+        padding: 0.1em 0;
+    }
+
+    input[type=text], input[type=email], textarea {
+        padding: 0.7em;
+        font-size: 1em;
+        color: $color-text;
+        width: 100%;
+        border: none;
+        background-color: lighten($color-contrast, 20);
+    }
+
+    textarea {
+        height: 10em;
+    }
+
+    button[type=submit] {
+        background-color: $color-text;
+        color: $color-contrast;
+        font-size: 0.8em;
+        padding: 0.8em;
+        font-weight: 700;
+        transition: $duration-normal;
+        cursor: pointer;
+        border: none;
+
+        &:hover {
+            background-color: lighten($color-contrast, 20);
+            color: $color-text;
+        }
+    }
+
+    &--is-half {
+        width: 100%;
+    }
+}

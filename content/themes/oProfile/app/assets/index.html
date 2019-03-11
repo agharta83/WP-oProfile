@@ -3,13 +3,230 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Brunch</title>
-  <link rel="stylesheet" href="/app.css">
-  <script src="/app.js"></script>
-  <script>require('initialize');</script>
+  <link rel="stylesheet" href="/css/vendor.css">
+  <link rel="stylesheet" href="/css/app.css">
+ 
 </head>
 <body>
-  <div class="brunch">
-    <a href="http://brunch.io"><img src="http://brunch.io/images/logo.png" alt="Brunch"></a>
-    <p>Bon Appétit.</p>
+
+  <header class="header">
+    <h1 class="logo">oProfile</h1>
+    <nav class="social-nav" role="navigation">
+      <a class="social-nav__link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a class="social-nav__link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a class="social-nav__link" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+      <a class="social-nav__link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a class="social-nav__link" href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+    </nav>
+    <a href="#" class="ui-button"><i class="fa fa-bars"></i></a>
+  </header>
+
+  <div class="menu">
+    <a href="" class="ui-button ui-button"><i class="fa fa-close"></i></a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#" class="main-nav__link">Homepage</a></li>
+        <li><a href="#" class="main-nav__link">Blog</a></li>
+        <li><a href="#" class="main-nav__link">Projets</a></li>
+        <li><a href="#" class="main-nav__link">Exemple</a></li>
+        <li><a href="#" class="main-nav__link">Contact</a></li>
+      </ul>
+    </nav>
+    <nav class="social-nav">
+      <a class="social-nav__link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a class="social-nav__link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a class="social-nav__link" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+      <a class="social-nav__link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a class="social-nav__link" href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+    </nav>
   </div>
+
+  <main>
+    <section class="banner" role="banner" style="background-image: url('images/see.jpg')">
+      <div class="intro">
+        <h2 class="intro__title">Hello, je suis miss Kaplan</h2>
+        <div class="intro__content">
+          <p>Voluptate proident laboris dolore elit officia Lorem dolore excepteur.
+          Elit esse aliquip excepteur id nulla nisi cillum anim.</p>
+        </div>
+        <div class="action-bar">
+          <a href="#posts" class="action-button">En savoir plus</a>
+          <a href="#contact" class="action-button">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="posts" id="posts">
+
+      <article class="post-home" style="background-image: url('images/arbre.jpg');">
+        <h3 class="post-home__title">Titre de l'article</h3>
+        <div class="post-homme__content">
+          <p>Velit commodo ullamco eiusmod nisi cillum exercitation cillum ut quis. 
+          Proident dolore elit nostrud exercitation adipisicing culpa consectetur 
+          ipsum magna consequat elit consectetur. Esse incididunt tempor mollit dolore 
+          reprehenderit occaecat qui. Ad ad velit ex do consectetur eu ea qui ullamco. 
+          Commodo magna mollit est ad.</p>
+        </div>
+      </article>
+
+      <article class="post-home" style="background-image: url('images/fete.jpg');">
+        <h3 class="post-home__title">Titre de l'article</h3>
+        <div class="post-homme__content">
+          <p>Velit commodo ullamco eiusmod nisi cillum exercitation cillum ut quis. 
+          Proident dolore elit nostrud exercitation adipisicing culpa consectetur 
+          ipsum magna consequat elit consectetur. Esse incididunt tempor mollit dolore 
+          reprehenderit occaecat qui. Ad ad velit ex do consectetur eu ea qui ullamco. 
+          Commodo magna mollit est ad.</p>
+        </div>
+      </article>
+
+      <article class="post-home" style="background-image: url('images/montagne.jpg');">
+        <h3 class="post-home__title">Titre de l'article</h3>
+        <div class="post-homme__content">
+          <p>Velit commodo ullamco eiusmod nisi cillum exercitation cillum ut quis. 
+          Proident dolore elit nostrud exercitation adipisicing culpa consectetur 
+          ipsum magna consequat elit consectetur. Esse incididunt tempor mollit dolore 
+          reprehenderit occaecat qui. Ad ad velit ex do consectetur eu ea qui ullamco. 
+          Commodo magna mollit est ad.</p>
+        </div>
+      </article>
+      <article class="post-home" style="background-image: url('images/neige.jpg');">
+        <h3 class="post-home__title">Titre de l'article</h3>
+        <div class="post-homme__content">
+          <p>Velit commodo ullamco eiusmod nisi cillum exercitation cillum ut quis. 
+          Proident dolore elit nostrud exercitation adipisicing culpa consectetur 
+          ipsum magna consequat elit consectetur. Esse incididunt tempor mollit dolore 
+          reprehenderit occaecat qui. Ad ad velit ex do consectetur eu ea qui ullamco. 
+          Commodo magna mollit est ad.</p>
+        </div>
+      </article>
+
+      <article class="post-home" style="background-image: url('images/rue.jpg');">
+        <h3 class="post-home__title">Titre de l'article</h3>
+        <div class="post-homme__content">
+          <p>Velit commodo ullamco eiusmod nisi cillum exercitation cillum ut quis. 
+          Proident dolore elit nostrud exercitation adipisicing culpa consectetur 
+          ipsum magna consequat elit consectetur. Esse incididunt tempor mollit dolore 
+          reprehenderit occaecat qui. Ad ad velit ex do consectetur eu ea qui ullamco. 
+          Commodo magna mollit est ad.</p>
+        </div>
+      </article>
+
+      <article class="post-home" style="background-image: url('images/soleil.jpg');">
+        <h3 class="post-home__title">Titre de l'article</h3>
+        <div class="post-homme__content">
+          <p>Velit commodo ullamco eiusmod nisi cillum exercitation cillum ut quis. 
+          Proident dolore elit nostrud exercitation adipisicing culpa consectetur 
+          ipsum magna consequat elit consectetur. Esse incididunt tempor mollit dolore 
+          reprehenderit occaecat qui. Ad ad velit ex do consectetur eu ea qui ullamco. 
+          Commodo magna mollit est ad.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid">
+
+      <div class="grid__item">
+        <i class="grid__item__icon fa fa-user"></i>
+        <h4 class="grid__item__title">Toujours à l'écoute</h4>
+        <div class="grid__item_content">
+          <p>Ut aliqua Lorem fugiat sint proident adipisicing.</p>
+        </div>
+      </div>
+
+      <div class="grid__item">
+        <i class="grid__item__icon fa fa-user"></i>
+        <h4 class="grid__item__title">Toujours à l'écoute</h4>
+        <div class="grid__item_content">
+          <p>Ut aliqua Lorem fugiat sint proident adipisicing.</p>
+        </div>
+      </div>
+
+      <div class="grid__item">
+        <i class="grid__item__icon fa fa-user"></i>
+        <h4 class="grid__item__title">Toujours à l'écoute</h4>
+        <div class="grid__item_content">
+          <p>Ut aliqua Lorem fugiat sint proident adipisicing.</p>
+        </div>
+      </div>
+
+      <div class="grid__item">
+        <i class="grid__item__icon fa fa-user"></i>
+        <h4 class="grid__item__title">Toujours à l'écoute</h4>
+        <div class="grid__item_content">
+          <p>Ut aliqua Lorem fugiat sint proident adipisicing.</p>
+        </div>
+      </div>
+
+      <div class="grid__item">
+        <i class="grid__item__icon fa fa-user"></i>
+        <h4 class="grid__item__title">Toujours à l'écoute</h4>
+        <div class="grid__item_content">
+          <p>Ut aliqua Lorem fugiat sint proident adipisicing.</p>
+        </div>
+      </div>
+
+      <div class="grid__item">
+      <i class="grid__item__icon fa fa-user"></i>
+      <h4 class="grid__item__title">Toujours à l'écoute</h4>
+      <div class="grid__item_content">
+        <p>Ut aliqua Lorem fugiat sint proident adipisicing.</p>
+      </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="contact-form">
+
+      <form action="">
+
+        <div class="field field--is-half">
+          <label for="name">Nom</label>
+          <input id="name" type="text">
+        </div>
+
+        <div class="field field--is-half">
+          <label for="email">Email</label>
+          <input id="email" type="text">
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" type="text"></textarea>
+        </div>
+
+        <div class="field">
+            <button type="submit">Envoyer</button>
+          </div>
+        
+      </form>
+    </div>
+
+    <div class="contact-info" id="contact">
+
+      <div class="contact-info__item">
+        <i class="contact-info__item__icon fa fa-envelope"></i>
+        <h5 class="contact-info__item__title">E-mail</h5>
+        <a href="mailto:audrey@oclock.io">audrey@oclock.io</a>
+      </div>
+
+      <div class="contact-info__item">
+          <i class="contact-info__item__icon fa fa-phone"></i>
+          <h5 class="contact-info__item__title">T&eacute;l&eacute;phone</h5>
+          <a href="tel:+33604020810">+33 6 04 02 08 10</a>
+        </div>
+
+        <div class="contact-info__item">
+            <i class="contact-info__item__icon fa fa-home"></i>
+            <h5 class="contact-info__item__title">Adresse</h5>
+            <p>Magna id occaecat et non.</p>
+          </div>
+
+    </div>
+  </footer>
+  
+  <script type="text/javascript" src="/js/vendor.js"></script>
+  <script type="text/javascript" src="/js/app.js"></script>
 </body>

@@ -1,0 +1,21 @@
+.main-nav {
+    margin-bottom: 2em;
+    width: 50%;
+
+    ul {
+
+        li {
+            text-align: center;
+            border-top: 1px solid darken($color-text, 50);
+
+            &:first-child {
+                border-top: none;
+            }
+
+            a {
+                line-height: 4em;
+                letter-spacing: 0.2em;
+            }
+        }
+    }
+}

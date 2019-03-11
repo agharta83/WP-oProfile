@@ -6,10 +6,21 @@ exports.files = {
       'css/app.css': /^app/,
       'css/vendor.css': /^node_modules/
     }
+  },
+  javascripts: {
+    joinTo: {
+      'js/app.js': /^app/,
+      'js/vendor.js': /^(?!app)/
+    }
   }
 };
 
 exports.plugins = {
+  sass: {
+    options: {
+      includePaths: ['node_modules/font-awesome/scss']
+    }
+  },
   copycat: {
     "fonts": ["node_modules/font-awesome/fonts"]
   },
@@ -27,5 +38,12 @@ exports.npm = {
   styles: {
     "normalize.css": ["normalize.css"],
     "font-awesome": ["css/font-awesome.css"]
+  }
+};
+
+exports.modules = {
+  // J'ajoute require('initialize) automatiquement dans js/app.js
+  autoRequire: {
+    'js/app.js': ['initialize']
   }
 };
